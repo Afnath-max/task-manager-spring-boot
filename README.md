@@ -2,22 +2,6 @@
 
 A full-stack web application for managing personal tasks with user authentication, built using Spring Boot and modern web technologies.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-## ✨ Features
-
 ### User Management
 - **User Registration**: Create new accounts with secure password encryption
 - **User Login**: Authenticate using Spring Security
