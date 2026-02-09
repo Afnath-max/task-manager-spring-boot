@@ -36,7 +36,6 @@ A full-stack web application for managing personal tasks with user authenticatio
 - **Bootstrap** (optional) - Responsive design framework
 
 ### Database
-- **H2 Database** - In-memory database for development
 - **MySQL** - Production database (configurable)
 
 ### Build Tool
@@ -76,20 +75,7 @@ Before running this application, ensure you have the following installed:
 
 ### Database Configuration
 
-#### Option 1: H2 Database (Default - Development)
-
-Add to `application.properties`:
-```properties
-spring.datasource.url=jdbc:h2:mem:taskdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-spring.h2.console.enabled=true
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.jpa.hibernate.ddl-auto=update
-```
-
-#### Option 2: MySQL Database (Production)
+#### Option: MySQL Database (Production)
 
 Add to `application.properties`:
 ```properties
@@ -226,30 +212,7 @@ personal-task-manager/
 └── README.md
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Spring Boot Documentation
-- Spring Security Reference
-- Thymeleaf Documentation
-- Bootstrap (if used)
-
-## 📞 Contact
-
-Your Name - your.email@example.com
 
 Project Link: [https://github.com/yourusername/personal-task-manager](https://github.com/yourusername/personal-task-manager)
 
