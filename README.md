@@ -72,40 +72,22 @@ Before running this application, ensure you have the following installed:
 
 ## ⚙️ Configuration
 
-### Database Configuration
-
-#### Option: MySQL Database (Production)
+### Application Properties
 
 Add to `application.properties`:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/taskmanager
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-```
-
-Create the database:
-```sql
-CREATE DATABASE taskmanager;
-```
-
-### Application Properties
 
 Additional configurations in `application.properties`:
 ```properties
-server.port=8080
-spring.application.name=Personal Task Manager
-
-# Thymeleaf configuration
+spring.application.name=taskmanager
 spring.thymeleaf.cache=false
-spring.thymeleaf.prefix=classpath:/templates/
-spring.thymeleaf.suffix=.html
 
-# Security
-spring.security.user.name=admin
-spring.security.user.password=admin123
+spring.datasource.url=jdbc:mysql://localhost:3306/taskmanager_db?createDatabaseIfNotExist=true
+spring.datasource.username=user_name
+spring.datasource.password=your_password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.open-in-view=false
 ```
 
 ## ▶️ Running the Application
