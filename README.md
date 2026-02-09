@@ -46,7 +46,7 @@ Before running this application, ensure you have the following installed:
 
 - **Java Development Kit (JDK) 17** or higher
 - **Maven 3.6+** or **Gradle 7.0+**
-- **MySQL 8.0+** (if using MySQL instead of H2)
+- **MySQL 8.0+** 
 - **Git** - For version control
 - **IDE** (recommended): IntelliJ IDEA, Eclipse, or VS Code
 
