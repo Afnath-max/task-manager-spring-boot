@@ -33,7 +33,6 @@ A full-stack web application for managing personal tasks with user authenticatio
 ### Frontend
 - **Thymeleaf** - Server-side template engine
 - **HTML5/CSS3** - Structure and styling
-- **Bootstrap** (optional) - Responsive design framework
 
 ### Database
 - **MySQL** - Production database (configurable)
